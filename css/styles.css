@@ -1,0 +1,104 @@
+/* ===== Whole page ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF8E8;
+    color: #990D35;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* ===== Header and menu ===== */
+header {
+    background-color: #FCD581;
+    padding: 20px;
+    text-align: center;
+}
+
+header p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+nav a {
+    color: #990D35;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Main content ===== */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+/* ===== Table ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #990D35;
+    padding: 10px;
+    text-align: left;
+}
+
+/* ===== Form ===== */
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #990D35;
+    border: none;
+    cursor: pointer;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #FCD581;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ===== Phones (screens 600px wide or smaller) ===== */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
