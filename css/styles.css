@@ -1,4 +1,4 @@
-/* ===== Whole page ===== */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #FFF8E8;
@@ -7,7 +7,7 @@ body {
     line-height: 1.6;
 }
 
-/* ===== Header and menu ===== */
+
 header {
     background-color: #FCD581;
     padding: 20px;
@@ -30,7 +30,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* ===== Main content ===== */
+
 main {
     max-width: 900px;
     margin: 0 auto;
@@ -42,7 +42,9 @@ section {
 }
 
 img {
-    max-width: 100%;
+    display: block;
+    width: 100%;
+    max-width: 300px;
     height: auto;
 }
 
@@ -50,7 +52,7 @@ iframe {
     max-width: 100%;
 }
 
-/* ===== Table ===== */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -62,7 +64,7 @@ th, td {
     text-align: left;
 }
 
-/* ===== Form ===== */
+
 label {
     display: block;
     margin-top: 20px;
@@ -84,14 +86,14 @@ button {
     cursor: pointer;
 }
 
-/* ===== Footer ===== */
+
 footer {
     background-color: #FCD581;
     text-align: center;
     padding: 20px;
 }
 
-/* ===== Phones (screens 600px wide or smaller) ===== */
+
 @media (max-width: 600px) {
     nav a {
         display: block;
